@@ -1,3 +1,5 @@
 a=input("Enter a string : ")
-b=a.split()
-print(b)
+s=0
+for char in a:
+    s+=1
+print(s)
